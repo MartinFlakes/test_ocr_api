@@ -1,4 +1,4 @@
-const apiKey = 
+import { apiKey } from './config.js';
 
 document.getElementById("ocrForm").addEventListener("submit", async function (e) {
     e.preventDefault();
